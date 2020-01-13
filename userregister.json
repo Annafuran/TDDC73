@@ -1,11 +1,4 @@
 [
-	{
-		"id":1, 
-		"username": "Erica", 
-		"password": "123",
-		"email": "test"
-	}
-
-
-
+{"id":"Erica" ,"password": "1234","email": "test"},
+{"id":"AnnaPanna","password": "123","email": "test"}
 ]
