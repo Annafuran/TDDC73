@@ -1,11 +1,10 @@
 
 import React, { Component, useState} from 'react';
-import {ProgressBarAndroid, KeyboardAvoidingView, ScrollView, Progress, Icon, StatusBar, Dimensions, Text, View, Image, Button, StyleSheet, Alert, TouchableOpacity ,TextInput, SafeAreaView } from 'react-native';
 
+export var loadedData = loadData();
 
-export var loadedData = loadData1();
 //Load the inital user database. 
-function loadData1() {
+function loadData() {
 
   const data =  require('./userregister.json'); 
   var userData = data.map(getSelectedUser);
